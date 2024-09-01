@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quitanda</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="container"
+        <form id="formCarrinho">
+            <h1>Quitanda</h1>
+            <label for="frutas">Escolha a fruta</label><br>
+            <select id="frutas">
+                <option value="laranja">Laranja</option>
+                <option value="maca">Maçã</option>
+                <option value="banana">Banana</option>
+                <option value="uva">Uva</option>
+            </select><br><br>
+            <label for="quantidade">Quantidade</label><br>
+            <input type="number" id="quantidade"><br><br>
+            <button type="button" onclick="adicionarCarrinho()">Adicionar ao Carrinho</button>
+        </form>
+        <h1>Carrinho</h1>
+        <div id="carrinho"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -20,12 +20,11 @@ function adicionarCarrinho(){
          frutas.preco=2.00
     else 
          frutas.preco=6.00
+    }
+    frutas.preco=frutas.preco*frutas*quantidade
     carrinho.push("frutas")
+
 }
-}
-function resultFinal(frutas){
-      frutas.preco=frutas.preco*frutas*quantidade
-      console.log("frutas")
-}
+
 
 

@@ -25,6 +25,11 @@ function adicionarCarrinho(){
     carrinho.push("frutas")
 
 }
-
+function carrinhoTotal(){
+   let total=0 
+    total=total+carrinho[frutas.preco]
+   console.log("carrinho")
+   console.log("total")
+}
 
 

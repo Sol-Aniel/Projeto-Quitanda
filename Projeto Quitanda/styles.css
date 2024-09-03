@@ -1,10 +1,54 @@
-.container{
-  background-color: white
-  box-shadow: gray
-  align-item: center
-  display: flex
-  
-}
-button{
-  
-}
+ body {
+     font-family: Arial, sans-serif;
+     background-color: #f2f2f2;
+     margin: 0;
+     padding: 0;
+ }
+
+ .container {
+     max-width: 500px;
+     margin: 30px auto;
+     max-height: 800px;
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 15px;
+ }
+
+ h1 {
+     text-align: center;
+ }
+
+
+ #frutas {
+    width: 100%;
+    padding: 8px;
+    display: block;
+    border: 3px solid #f38508;
+    border-radius: 10px;
+
+    
+ }
+
+ input {
+     width: 100%;
+     padding: 10px;
+     border: 3px solid #7f5ad4;
+     border-radius: 10px;
+     box-sizing: border-box;
+     margin-bottom: 20px;
+ }
+
+ button {
+     width: 35%;
+     padding: 10px;
+     background-color: #26b82b;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+
+ .button:hover {
+     background-color: #45a068;
+ }
+

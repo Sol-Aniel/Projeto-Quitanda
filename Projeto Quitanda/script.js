@@ -60,6 +60,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     document.querySelector('button').addEventListener('click', adicionarCarrinho);
+    function pedir(){
+  let fruitadicionada=document.getElementById("fruta+")
+  console.log("Avaliaremos o pedido de adicionar essa fruta!")}
 });
 
 

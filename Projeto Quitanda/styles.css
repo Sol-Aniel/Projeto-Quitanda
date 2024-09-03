@@ -1,9 +1,11 @@
  body {
      font-family: Arial, sans-serif;
-     background-color: #f2f2f2;
+     background-color: #54cf73;
      margin: 0;
      padding: 0;
+     background-image: url("https://i.pinimg.com/564x/16/1f/c4/161fc4bc85fe8d0d64bc1af3e213f452.jpg");
  }
+
 
  .container {
      max-width: 500px;
@@ -20,13 +22,13 @@
 
 
  #frutas {
-    width: 100%;
-    padding: 8px;
-    display: block;
-    border: 3px solid #f38508;
-    border-radius: 10px;
+     width: 100%;
+     padding: 8px;
+     display: block;
+     border: 3px solid #f38508;
+     border-radius: 10px;
 
-    
+
  }
 
  input {
@@ -51,4 +53,3 @@
  .button:hover {
      background-color: #45a068;
  }
-

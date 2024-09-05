@@ -4,7 +4,7 @@
         banana: 1.50,
         uva: 4.50,
         morango: 5.50,
-		kiwi: 4.80,
+	kiwi: 4.80,
         melancia: 7.90
     };
 

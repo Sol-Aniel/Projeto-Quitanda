@@ -1,9 +1,11 @@
-document.addEventListener('DOMContentLoaded', () => {
     const precoFrutas = {
         laranja: 2.50,
         maca: 3.50,
         banana: 1.50,
-        uva: 4.50
+        uva: 4.50,
+        morango: 5.50,
+		kiwi: 4.80,
+        melancia: 7.90
     };
 
     const carrinho = [];
@@ -58,9 +60,3 @@ document.addEventListener('DOMContentLoaded', () => {
         atualizarCarrinho();
         quantidadeInput.value = '';
     }
-
-    document.querySelector('button').addEventListener('click', adicionarCarrinho);
-
-});
-
-
